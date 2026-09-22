@@ -1,6 +1,6 @@
 {
   "status": "COMPLETE_PUBLIC_REPOSITORY_TREE_MANIFEST",
-  "file_count": 128,
+  "file_count": 127,
   "files": [
     {
       "path": ".gitattributes",
@@ -233,14 +233,9 @@
       "sha256": "f4f35234b11624d61ecd1997dc04e70a2d847a1fcac2f5b70270d8204354aaa8"
     },
     {
-      "path": "paper/main.pdf",
-      "bytes": 292366,
-      "sha256": "3bfd2e16f3cb8d9a2b1c6a4e128e5a06df80d41d57e482c04109abbe46352650"
-    },
-    {
       "path": "paper/main.tex",
-      "bytes": 29697,
-      "sha256": "dc88dafa53c2ce92c49f900f6ca606ae9d04979e6064ce13478f43aa5f4bc06f"
+      "bytes": 33071,
+      "sha256": "e75d2cbc06ace400555d772f84562aedc62180a0b9b0e975e1658e9776d11366"
     },
     {
       "path": "paper/NUMERIC_AUDIT.md",
@@ -309,8 +304,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8132,
-      "sha256": "4acc6e0741517bead39866a3c20d754c0aa0bfeb099d59579981ea711dcec1bb"
+      "bytes": 8455,
+      "sha256": "db7b33e8427502e49218167f234c14a1070efa621a991cb238621adaf5936206"
     },
     {
       "path": "release_tools/analyze_pilot20.py",
@@ -359,8 +354,8 @@
     },
     {
       "path": "release/PUBLIC_RELEASE_MANIFEST.json",
-      "bytes": 1899,
-      "sha256": "1f276bfd92c258d7eaafaaca6d685af640a575814ceaf2b8be57500882e48b0c"
+      "bytes": 2326,
+      "sha256": "b6e312dbb29ac3e46d69db22098821d93093c1220634cbe1deb19a25e48eafeb"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -379,8 +374,8 @@
     },
     {
       "path": "RESULTS.md",
-      "bytes": 5627,
-      "sha256": "d1911788a2f0f030c800ad963e2a27cf037b63c6558e5d0df7d16f626087e47a"
+      "bytes": 5831,
+      "sha256": "239f23092b542c5355f2216ce71a48bc17f628e29dd2208c96b576cb599ac386"
     },
     {
       "path": "results/processed/benchmark_diversity.json",

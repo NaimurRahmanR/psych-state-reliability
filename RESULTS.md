@@ -40,6 +40,8 @@ Interpretation: unsupported inference clearly persisted under the injected-fault
 
 Primary `ALL` contrast:
 
+`Decision-reliable coverage` is the fraction of eligible turns on which the architecture both proceeds and has no deterministic typed decision error; it is separate from semantic response-text fidelity.
+
 - C - B SEPR: **+0.1018** [0.0527, 0.1541]
 - C - B propagation burden: **-0.1811** [-0.2648, -0.1060]
 - C - B coverage: **-0.7698** [-0.8920, -0.6333]

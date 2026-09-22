@@ -19,6 +19,8 @@ The reliability-aware architecture C reduced **absolute propagation burden** rel
 
 The central finding is a distinction between **selectivity** and **conditional reliability**: fewer propagated errors in absolute terms can coexist with worse propagation conditional on an erroneous state remaining active.
 
+**Metric definition.** `coverage` is the fraction of eligible turns on which the architecture proceeds rather than defers. `decision_reliable_coverage` is the fraction of eligible turns on which it both proceeds **and** has no deterministic typed decision error. It does not require a semantic response-fidelity judgment.
+
 Other prospective results were mixed or adverse:
 
 - **H1:** structured state did not improve clean state recall over history prompting (B - A = -0.0883, 95% CI [-0.1983, 0.0050]).

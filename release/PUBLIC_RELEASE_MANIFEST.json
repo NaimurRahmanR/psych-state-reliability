@@ -13,11 +13,11 @@
   "concurrency_amendment_sha256": "e30e58b48c07ceafc8cf83501bd0a5e8bef84225372780577f589e42ccc10548",
   "merged_outcomes_sha256": "3f2ca80cb663d70e0135ec9f2a53cce0f2cab68e65286042401ec5b2bb94e98c",
   "pilot20_analysis_sha256": "5f18ec2ba4bc673520e4db472bb6c5f981376a9465319cb81103642ad766a791",
-  "paper_pdf_sha256": "3bfd2e16f3cb8d9a2b1c6a4e128e5a06df80d41d57e482c04109abbe46352650",
-  "paper_tex_sha256": "dc88dafa53c2ce92c49f900f6ca606ae9d04979e6064ce13478f43aa5f4bc06f",
+  "paper_pdf_sha256": "a9b6a41480d28ba20fded2d7d2b96d157060236396b474257d6e2800156f3d0b",
+  "paper_tex_sha256": "e75d2cbc06ace400555d772f84562aedc62180a0b9b0e975e1658e9776d11366",
   "paper_bbl_sha256": "f4f35234b11624d61ecd1997dc04e70a2d847a1fcac2f5b70270d8204354aaa8",
-  "arxiv_source_sha256": "7d8d0ce1b0987b4247dd4b3aaf183e24e0f95a463b04f4fa4f252ae1107a07df",
-  "arxiv_source_bytes": 32107,
+  "arxiv_source_sha256": "ec824a918dd881731b3c359794c3f850ebd16625c2b0bcfcd3481dec9d96e411",
+  "arxiv_source_bytes": 33349,
   "raw_heldout_archive_sha256": "fb54337806ff43e4e9f03ba91370cc651473850f650cb6ef38aa6502fd939c7f",
   "final_analysis_archive_sha256": "76bb169803e3362eb538319c616ac179e6e2a43c1a1fe625deb0fe8688dcac15",
   "publication_boundary": "No additional model calls or post-result system tuning are part of this release.",
@@ -33,5 +33,7 @@
     ],
     "model_calls": 0,
     "protocol_tuning": false
-  }
+  },
+  "publication_revision": "Post-independent-audit manuscript-only corrections: metric definition, condition applicability explanation, frozen robustness summary, multiplicity caveat, and reproducibility scope. No model calls, protocol changes, or result changes.",
+  "paper_pdf_distribution": "Final PDF is an external preprint/arXiv artifact; GitHub commits source and reproducibility materials rather than a generated PDF."
 }
