@@ -234,8 +234,8 @@
     },
     {
       "path": "paper/main.tex",
-      "bytes": 33071,
-      "sha256": "e75d2cbc06ace400555d772f84562aedc62180a0b9b0e975e1658e9776d11366"
+      "bytes": 33405,
+      "sha256": "30ac75d6810e43aff663953fd5c53fbcd6d3c1b81001aff5ed1d213f64e3f9ef"
     },
     {
       "path": "paper/NUMERIC_AUDIT.md",
@@ -354,8 +354,8 @@
     },
     {
       "path": "release/PUBLIC_RELEASE_MANIFEST.json",
-      "bytes": 2326,
-      "sha256": "b6e312dbb29ac3e46d69db22098821d93093c1220634cbe1deb19a25e48eafeb"
+      "bytes": 2293,
+      "sha256": "225d2d66446bd1367e3a545f4281ad1c122e594a1a0cbda969040b64a68304c5"
     },
     {
       "path": "REPRODUCIBILITY.md",
