@@ -1,0 +1,2 @@
+# Preserve byte-exact frozen artifacts; Git must not normalize this CSV.
+results/processed/pilot20_final/condition_architecture_metrics.csv -text
