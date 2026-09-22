@@ -1,0 +1,41 @@
+{
+  "already_completed_serial_bases": [
+    "HLD-001",
+    "HLD-002",
+    "HLD-003",
+    "HLD-004",
+    "HLD-005"
+  ],
+  "calibration_only_validation": {
+    "calls": 10,
+    "concurrent_wall_seconds": 8.891445187000045,
+    "exact_text_matches_of_5": 4,
+    "fingerprint_valid": true,
+    "heldout_calls": 0,
+    "model_identity_valid": true,
+    "serial_wall_seconds": 18.098779820000345,
+    "structured_concurrent_outputs_parse_valid": true,
+    "wall_speedup": 2.0355273455953045
+  },
+  "execution_mode": {
+    "between_base_trajectories": "concurrent",
+    "within_base_trajectory": "unchanged sequential frozen run_case execution",
+    "worker_count": 5
+  },
+  "heldout_performance_inspected_before_change": false,
+  "reason": "Reduce wall-clock/GPU cost without changing the frozen scientific protocol.",
+  "scientific_components_changed": [],
+  "server": {
+    "fingerprint": "vllm-0.29.0-33dd102b",
+    "model": "Qwen/Qwen3-8B",
+    "vllm": "0.29.0"
+  },
+  "status": "LOCKED_BEFORE_ADDITIONAL_HELDOUT_INFERENCE",
+  "wave_01": [
+    "HLD-018",
+    "HLD-068",
+    "HLD-067",
+    "HLD-097",
+    "HLD-012"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "agreement": null,
+  "auditor": {
+    "audit_date": "2026-09-22",
+    "auditor_type": "human",
+    "blinded_to_architecture_and_automated_ratings": true,
+    "conflicts_of_interest": "Study author and system developer; potential author-reviewer conflict.",
+    "limitations": "The auditor is also the study author and system developer, so this is not an independent external audit. The auditor had seen aggregate pilot results before completing the manual audit. Individual audit items remained blinded to architecture, experimental condition, and automated failure labels. The audit assesses adherence to the frozen rubric and evidence grounding; it does not establish clinical efficacy or clinical safety.",
+    "qualifications": "MSc in Big Data and Data Science Technology and BSc in Computer Science; AI/ML researcher and software practitioner. Non-clinical reviewer.",
+    "rater_id": "RATER-01",
+    "relevant_training": "Reviewed the frozen study rubric and rated evidence-response pairs for grounding, requested intervention adherence, stale-state targeting, unsupported endorsement, fabrication, strategy switching, and generic advice. No formal clinical psychology qualification."
+  },
+  "cohen_kappa": null,
+  "completed": 324,
+  "disagreements": [],
+  "fn": 0,
+  "fp": 0,
+  "missing": 324,
+  "n": 0,
+  "planned": 324,
+  "sensitivity": null,
+  "specificity": null,
+  "tn": 0,
+  "tp": 0
+}

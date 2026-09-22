@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{agarwal2025appraisals}
+Navneet Agarwal and Kairit Sirts.
+\newblock Exploratory study into relations between cognitive distortions and
+  emotional appraisals.
+\newblock In {\em Proceedings of the 10th Workshop on Computational Linguistics
+  and Clinical Psychology (CLPsych 2025)}, pages 127--139. Association for
+  Computational Linguistics, 2025.
+
+\bibitem{chen2024judges}
+Guiming~Hardy Chen, Shunian Chen, Ziche Liu, Feng Jiang, and Benyou Wang.
+\newblock Humans or {LLM}s as the judge? a study on judgement biases.
+\newblock In {\em Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 8301--8327. Association for Computational
+  Linguistics, 2024.
+
+\bibitem{geifman2019selectivenet}
+Yonatan Geifman and Ran El-Yaniv.
+\newblock Selectivenet: A deep neural network with an integrated reject option.
+\newblock In {\em Proceedings of the 36th International Conference on Machine
+  Learning}, pages 2151--2159, 2019.
+
+\bibitem{gross1998emotion}
+James~J. Gross.
+\newblock The emerging field of emotion regulation: An integrative review.
+\newblock {\em Review of General Psychology}, 2(3):271--299, 1998.
+
+\bibitem{kuo2022validation}
+Janice~R. Kuo, Shannon Fitzpatrick, Jennifer Ip, and Amanda~A. Uliaszek.
+\newblock The who and what of validation: an experimental examination of
+  validation and invalidation of specific emotions and the moderating effect of
+  emotion dysregulation.
+\newblock {\em Borderline Personality Disorder and Emotion Dysregulation},
+  9:15, 2022.
+
+\bibitem{rahman2026esr}
+Naimur Rahman.
+\newblock Evidence-state reliability under controlled degradation:
+  Parser-validity divergence in a multi-stage {LLM} pipeline.
+\newblock {\em arXiv preprint arXiv:2608.21559}, 2026.
+
+\bibitem{ruder2025appraisal}
+Deniss Ruder, Andero Uusberg, and Kairit Sirts.
+\newblock Assessing the reliability and validity of {GPT}-4 in annotating
+  emotion appraisal ratings.
+\newblock In {\em Proceedings of the 10th Workshop on Computational Linguistics
+  and Clinical Psychology (CLPsych 2025)}, pages 1--11. Association for
+  Computational Linguistics, 2025.
+
+\bibitem{shutova2026structmemeval}
+Alina Shutova, Alexandra Olenina, Ivan Vinogradov, and Anton Sinitsin.
+\newblock Evaluating memory structure in {LLM} agents.
+\newblock {\em arXiv preprint arXiv:2602.11243}, 2026.
+
+\bibitem{uusberg2023expanded}
+Andero Uusberg, Brett~Q. Ford, Helen Uusberg, and James~J. Gross.
+\newblock Reappraising reappraisal: an expanded view.
+\newblock {\em Cognition and Emotion}, 37(3):357--370, 2023.
+
+\bibitem{wang2024patientpsi}
+Ruiyi Wang, Stephanie Milani, Jamie~C. Chiu, Jiayin Zhi, Shaun~M. Eack, Travis
+  Labrum, Samuel~M. Murphy, Nev Jones, Kate~V. Hardy, Hong Shen, Fei Fang, and
+  Zhiyu Chen.
+\newblock {PATIENT-}psi: Using large language models to simulate patients for
+  training mental health professionals.
+\newblock In {\em Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 12772--12797. Association for
+  Computational Linguistics, 2024.
+
+\bibitem{wu2024longmemeval}
+Di~Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang, and Dong Yu.
+\newblock Longmemeval: Benchmarking chat assistants on long-term interactive
+  memory.
+\newblock {\em arXiv preprint arXiv:2410.10813}, 2024.
+
+\bibitem{zhang2026clinicirca}
+Aiwei~Ivy Zhang, Nimra Ishfaq, Mohit Chandra, Santiago Alvarez~Lesmes, Adam
+  Coscia, Khatiya Chelidze~Moon, Xiaohan Ding, and Munmun De~Choudhury.
+\newblock Clinicirca: A modular llm framework for constructing longitudinal
+  mental health patient journeys from raw ehr narratives.
+\newblock {\em arXiv preprint arXiv:2609.19585}, 2026.
+
+\bibitem{zhao2024esceval}
+Haiquan Zhao, Lingyu Li, Shisong Chen, Shuqi Kong, Jiaan Wang, Kexin Huang,
+  Tianle Gu, Yixu Wang, Jian Wang, Liang Dandan, Zhixu Li, Yan Teng, Yanghua
+  Xiao, and Yingchun Wang.
+\newblock {ESC}-eval: Evaluating emotion support conversations in large
+  language models.
+\newblock In {\em Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 15785--15810. Association for
+  Computational Linguistics, 2024.
+
+\bibitem{zheng2023judge}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao
+  Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E.
+  Gonzalez, and Ion Stoica.
+\newblock Judging {LLM}-as-a-judge with {MT}-bench and chatbot arena.
+\newblock {\em arXiv preprint arXiv:2306.05685}, 2023.
+
+\bibitem{zhong2024memorybank}
+Wanjun Zhong, Lianghong Guo, Qiqi Gao, He~Ye, and Yanlin Wang.
+\newblock Memorybank: Enhancing large language models with long-term memory.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  38(17):19724--19731, 2024.
+
+\end{thebibliography}

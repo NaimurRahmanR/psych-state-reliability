@@ -1,0 +1,20 @@
+name: reproducibility
+on:
+  push:
+  pull_request:
+jobs:
+  offline-reproduction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e .
+      - run: python release_tools/run_frozen_tests.py
+      - run: python release_tools/verify_public_release.py
+      - run: python release_tools/analyze_pilot20.py
+      - run: python release_tools/verify_human_audit.py
+      - run: python release_tools/make_publication_tables.py
+      - run: python release_tools/robustness_audit.py

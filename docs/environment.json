@@ -1,0 +1,14 @@
+{
+  "endpoint_present": false,
+  "judge_configured": false,
+  "key_present": false,
+  "model_configured": false,
+  "packages": {
+    "matplotlib": null,
+    "numpy": "2.3.5",
+    "scipy": null
+  },
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "status": "INFERENCE_NOT_EXECUTED"
+}

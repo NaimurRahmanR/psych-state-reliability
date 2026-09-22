@@ -1,0 +1,103 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE_AUTHOR_BLINDED_AUDIT",
+  "planned": 324,
+  "completed": 324,
+  "human_counts": {
+    "pass": 322,
+    "fail": 1,
+    "ambiguous": 1,
+    "evaluable": 323,
+    "failure_rate_evaluable": 0.0030959752321981426
+  },
+  "automated_semantic_labels": {
+    "unavailable": 324
+  },
+  "automated_agreement_analysis": "UNAVAILABLE_NOT_TESTED",
+  "by_architecture": {
+    "A": {
+      "n": 108,
+      "pass": 108,
+      "fail": 0,
+      "ambiguous": 0,
+      "evaluable": 108,
+      "failure_rate_evaluable": 0.0
+    },
+    "B": {
+      "n": 108,
+      "pass": 107,
+      "fail": 0,
+      "ambiguous": 1,
+      "evaluable": 107,
+      "failure_rate_evaluable": 0.0
+    },
+    "C": {
+      "n": 108,
+      "pass": 107,
+      "fail": 1,
+      "ambiguous": 0,
+      "evaluable": 108,
+      "failure_rate_evaluable": 0.009259259259259259
+    }
+  },
+  "by_condition": {
+    "clean": {
+      "n": 60,
+      "pass": 59,
+      "fail": 0,
+      "ambiguous": 1,
+      "evaluable": 59,
+      "failure_rate_evaluable": 0.0
+    },
+    "contradictory_evidence": {
+      "n": 42,
+      "pass": 42,
+      "fail": 0,
+      "ambiguous": 0,
+      "evaluable": 42,
+      "failure_rate_evaluable": 0.0
+    },
+    "missing_evidence": {
+      "n": 60,
+      "pass": 60,
+      "fail": 0,
+      "ambiguous": 0,
+      "evaluable": 60,
+      "failure_rate_evaluable": 0.0
+    },
+    "stale_state": {
+      "n": 60,
+      "pass": 59,
+      "fail": 1,
+      "ambiguous": 0,
+      "evaluable": 60,
+      "failure_rate_evaluable": 0.016666666666666666
+    },
+    "superseded_appraisal": {
+      "n": 42,
+      "pass": 42,
+      "fail": 0,
+      "ambiguous": 0,
+      "evaluable": 42,
+      "failure_rate_evaluable": 0.0
+    },
+    "unsupported_inference": {
+      "n": 60,
+      "pass": 60,
+      "fail": 0,
+      "ambiguous": 0,
+      "evaluable": 60,
+      "failure_rate_evaluable": 0.0
+    }
+  },
+  "auditor": {
+    "auditor_type": "human",
+    "rater_id": "RATER-01",
+    "qualifications": "MSc in Big Data and Data Science Technology and BSc in Computer Science; AI/ML researcher and software practitioner. Non-clinical reviewer.",
+    "relevant_training": "Reviewed the frozen study rubric and rated evidence-response pairs for grounding, requested intervention adherence, stale-state targeting, unsupported endorsement, fabrication, strategy switching, and generic advice. No formal clinical psychology qualification.",
+    "limitations": "The auditor is also the study author and system developer, so this is not an independent external audit. The auditor had seen aggregate pilot results before completing the manual audit. Individual audit items remained blinded to architecture, experimental condition, and automated failure labels. The audit assesses adherence to the frozen rubric and evidence grounding; it does not establish clinical efficacy or clinical safety.",
+    "conflicts_of_interest": "Study author and system developer; potential author-reviewer conflict.",
+    "audit_date": "2026-09-22",
+    "blinded_to_architecture_and_automated_ratings": true
+  },
+  "interpretation_boundary": "Descriptive author-blinded manual audit only. No automated semantic failure labels were available, so sensitivity, specificity, agreement and Cohen's kappa cannot be estimated. The audit is not an independent clinical validation."
+}

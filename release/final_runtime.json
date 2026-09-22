@@ -1,0 +1,41 @@
+{
+  "status": "FINAL_EMPIRICAL_RUNTIME_RESOLUTION",
+  "date": "2026-09-22",
+  "source_digest": "a985aa60ef4eedda3e7eb4d68b31437aba669c9dca15caa7328b79857cdf41dd",
+  "final_manual_config_sha256": "db83f43b1630356358abf54485f225d7d095b7b00675e78b29c151378f7a4545",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "model_weights_manifest_sha256": "6b9baefae3129a1a03ceecab6ff9639841c57573bf7358c11ffc1cb35a8b06e4",
+  "runtime": {
+    "python": "3.12.3",
+    "vllm": "0.29.0",
+    "transformers": "5.17.0",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "dtype": "BF16",
+    "server_fingerprint": "vllm-0.29.0-33dd102b"
+  },
+  "generation": {
+    "seed": 263901,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_tokens": 1800,
+    "enable_thinking": false
+  },
+  "evaluator_mode": "manual_audit_only",
+  "semantic_fidelity": "UNAVAILABLE_NOT_VALIDATED",
+  "pilot": {
+    "bases": 20,
+    "primary_outcomes": 1590,
+    "control_outcomes": 600,
+    "total_outcomes": 2190
+  },
+  "execution": {
+    "first_five_bases": "serial",
+    "remaining_fifteen_bases": "five concurrent between-base workers; within-base run_case sequential",
+    "concurrency_amendment_sha256": "e30e58b48c07ceafc8cf83501bd0a5e8bef84225372780577f589e42ccc10548"
+  },
+  "note": "This release-time manifest records values resolved during execution. It does not replace or rewrite source-frozen pre-execution configuration files."
+}

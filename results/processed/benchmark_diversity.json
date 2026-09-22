@@ -1,0 +1,385 @@
+{
+  "archetypes": 8,
+  "count": 20,
+  "degradations": {
+    "archetype_x_condition": {
+      "changed_circumstances": {
+        "clean": "clean:None",
+        "contradictory_evidence": "clean:transition",
+        "missing_evidence": "clean:blind_then_restated",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "clean:retraction",
+        "unsupported_inference": "stratified:stance_only"
+      },
+      "competing_interpretations": {
+        "clean": "clean:None",
+        "contradictory_evidence": "stratified:maintenance",
+        "missing_evidence": "clean:blind_then_restated",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "stratified:resolution_of_uncertainty",
+        "unsupported_inference": "clean:value_and_stance"
+      },
+      "confirmed_negative": {
+        "clean": "clean:None",
+        "contradictory_evidence": "stratified:maintenance",
+        "missing_evidence": "clean:blind_then_restated",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "stratified:resolution_of_uncertainty",
+        "unsupported_inference": "clean:value_and_stance"
+      },
+      "correction_then_reinstatement": {
+        "clean": "clean:None",
+        "contradictory_evidence": "confounded:None",
+        "missing_evidence": "clean:blind_then_restated",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "non_applicable:None",
+        "unsupported_inference": "stratified:stance_only"
+      },
+      "disconfirmed_correction": {
+        "clean": "clean:None",
+        "contradictory_evidence": "confounded:None",
+        "missing_evidence": "clean:blind_then_restated",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "non_applicable:None",
+        "unsupported_inference": "stratified:stance_only"
+      },
+      "emotion_shift": {
+        "clean": "clean:None",
+        "contradictory_evidence": "stratified:maintenance",
+        "missing_evidence": "clean:blind_throughout",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "stratified:resolution_of_uncertainty",
+        "unsupported_inference": "clean:value_and_stance"
+      },
+      "goal_shift": {
+        "clean": "clean:None",
+        "contradictory_evidence": "clean:transition",
+        "missing_evidence": "clean:blind_throughout",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "clean:retraction",
+        "unsupported_inference": "stratified:stance_only"
+      },
+      "persistent_uncertainty": {
+        "clean": "clean:None",
+        "contradictory_evidence": "stratified:maintenance",
+        "missing_evidence": "clean:blind_throughout",
+        "stale_state": "clean:topic_change",
+        "superseded_appraisal": "stratified:resolution_of_uncertainty",
+        "unsupported_inference": "clean:value_and_stance"
+      }
+    },
+    "naive_condition_variants": 120,
+    "primary_condition_variants": 110,
+    "primary_modes_per_condition": {
+      "clean": {
+        "none": 20
+      },
+      "contradictory_evidence": {
+        "maintenance": 9,
+        "transition": 6
+      },
+      "missing_evidence": {
+        "blind_then_restated": 13,
+        "blind_throughout": 7
+      },
+      "stale_state": {
+        "topic_change": 20
+      },
+      "superseded_appraisal": {
+        "resolution_of_uncertainty": 9,
+        "retraction": 6
+      },
+      "unsupported_inference": {
+        "stance_only": 11,
+        "value_and_stance": 9
+      }
+    },
+    "status_per_condition": {
+      "clean": {
+        "clean": 20
+      },
+      "contradictory_evidence": {
+        "clean": 6,
+        "confounded": 5,
+        "stratified": 9
+      },
+      "missing_evidence": {
+        "clean": 20
+      },
+      "stale_state": {
+        "clean": 20
+      },
+      "superseded_appraisal": {
+        "clean": 6,
+        "non_applicable": 5,
+        "stratified": 9
+      },
+      "unsupported_inference": {
+        "clean": 9,
+        "stratified": 11
+      }
+    },
+    "trajectories": 20
+  },
+  "distributions": {
+    "ambiguity_source": {
+      "ambiguous_severity_of_critique": 2,
+      "non_acknowledgement_in_public": 2,
+      "non_selection_for_a_fixture": 1,
+      "omission_from_a_gathering": 1,
+      "reassignment_without_explanation": 1,
+      "reduced_investment_of_time": 2,
+      "removal_without_stated_reason": 2,
+      "repeated_cancellation": 2,
+      "terse_written_feedback": 1,
+      "unanswered_personal_message": 2,
+      "unexplained_silence_on_a_draft": 2,
+      "withdrawal_from_a_shared_arrangement": 2
+    },
+    "archetype": {
+      "changed_circumstances": 3,
+      "competing_interpretations": 3,
+      "confirmed_negative": 2,
+      "correction_then_reinstatement": 3,
+      "disconfirmed_correction": 2,
+      "emotion_shift": 2,
+      "goal_shift": 3,
+      "persistent_uncertainty": 2
+    },
+    "family": {
+      "academic_collaboration": 2,
+      "family_plans": 2,
+      "friendship_delay": 2,
+      "hobby_critique": 2,
+      "mentoring_mismatch": 2,
+      "neighbour_arrangement": 2,
+      "online_community": 2,
+      "recognition_ambiguity": 2,
+      "social_exclusion": 1,
+      "team_selection": 1,
+      "volunteering_role": 1,
+      "workplace_feedback": 1
+    },
+    "final_appraisal": {
+      "negative_judgment": 8,
+      "resolved": 3,
+      "situational_explanation": 2,
+      "uncertain_meaning": 7
+    },
+    "final_emotion": {
+      "calm": 2,
+      "disappointed": 7,
+      "frustrated": 3,
+      "hurt": 4,
+      "worried": 4
+    },
+    "final_goal": {
+      "explore_alternatives": 9,
+      "feel_understood": 11
+    },
+    "initial_appraisal": {
+      "negative_judgment": 11,
+      "uncertain_meaning": 9
+    },
+    "initial_emotion": {
+      "disappointed": 9,
+      "frustrated": 3,
+      "hurt": 4,
+      "worried": 4
+    },
+    "initial_goal": {
+      "explore_alternatives": 11,
+      "feel_understood": 9
+    },
+    "intervention_family_turn1": {
+      "reappraisal": 11,
+      "validation": 9
+    },
+    "intervention_family_turn5": {
+      "reappraisal": 9,
+      "validation": 11
+    },
+    "relationship": {
+      "close_friend": 2,
+      "co_author": 2,
+      "forum_moderator": 2,
+      "friendship_group": 1,
+      "line_manager": 1,
+      "mentor": 2,
+      "neighbour": 2,
+      "peer_group_member": 2,
+      "project_lead": 2,
+      "sibling": 2,
+      "team_captain": 1,
+      "volunteer_coordinator": 1
+    },
+    "transition_type": {
+      "ambiguous_initial_appraisal": 9,
+      "changed_circumstances": 3,
+      "changed_emotional_response": 2,
+      "changed_regulatory_goal": 6,
+      "competing_plausible_interpretations": 3,
+      "confident_initial_appraisal": 11,
+      "confirming_evidence": 5,
+      "disconfirming_evidence": 2,
+      "explicit_correction": 5,
+      "obsolete_prior_state": 8,
+      "persistent_uncertainty": 5
+    },
+    "wording_variant": {
+      "0": 6,
+      "1": 6,
+      "2": 8
+    }
+  },
+  "heldout_allocation_plan": {
+    "archetypes_per_family": {
+      "academic_collaboration": 8,
+      "family_plans": 8,
+      "friendship_delay": 8,
+      "hobby_critique": 8,
+      "mentoring_mismatch": 8,
+      "neighbour_arrangement": 8,
+      "online_community": 8,
+      "recognition_ambiguity": 8,
+      "social_exclusion": 8,
+      "team_selection": 8,
+      "volunteering_role": 8,
+      "workplace_feedback": 8
+    },
+    "materialised": 0,
+    "planned_count": 100,
+    "planned_per_archetype": {
+      "changed_circumstances": 13,
+      "competing_interpretations": 13,
+      "confirmed_negative": 12,
+      "correction_then_reinstatement": 13,
+      "disconfirmed_correction": 12,
+      "emotion_shift": 12,
+      "goal_shift": 13,
+      "persistent_uncertainty": 12
+    },
+    "planned_per_family": {
+      "academic_collaboration": 9,
+      "family_plans": 9,
+      "friendship_delay": 9,
+      "hobby_critique": 9,
+      "mentoring_mismatch": 8,
+      "neighbour_arrangement": 8,
+      "online_community": 8,
+      "recognition_ambiguity": 8,
+      "social_exclusion": 8,
+      "team_selection": 8,
+      "volunteering_role": 8,
+      "workplace_feedback": 8
+    },
+    "rule": "family = FAMILY_IDS[i % 12]; archetype = ARCHETYPE_IDS[(i // 12 + 3 * (i % 12)) % 8]"
+  },
+  "lexical": {
+    "distinct_content_tokens": 357,
+    "max_pairwise_jaccard": 0.9167,
+    "mean_jaccard_different_family": 0.3098,
+    "mean_jaccard_same_family": 0.6515,
+    "mean_pairwise_jaccard": 0.3242,
+    "total_content_tokens": 1530,
+    "type_token_ratio": 0.2333
+  },
+  "planned_primary_matrix": {
+    "calibration": {
+      "architecture_condition_trajectories": 330,
+      "base_trajectories": 20,
+      "condition_variants": 110,
+      "matched_control_trajectories": 120,
+      "naive_design_trajectories": 360,
+      "per_condition": {
+        "clean": 20,
+        "contradictory_evidence": 15,
+        "missing_evidence": 20,
+        "stale_state": 20,
+        "superseded_appraisal": 15,
+        "unsupported_inference": 20
+      },
+      "per_condition_mode": {
+        "clean": {
+          "none": 20
+        },
+        "contradictory_evidence": {
+          "maintenance": 9,
+          "transition": 6
+        },
+        "missing_evidence": {
+          "blind_then_restated": 13,
+          "blind_throughout": 7
+        },
+        "stale_state": {
+          "topic_change": 20
+        },
+        "superseded_appraisal": {
+          "resolution_of_uncertainty": 9,
+          "retraction": 6
+        },
+        "unsupported_inference": {
+          "stance_only": 11,
+          "value_and_stance": 9
+        }
+      },
+      "primary_decision_points": 1650,
+      "split": "calibration"
+    },
+    "heldout": {
+      "architecture_condition_trajectories": 1650,
+      "base_trajectories": 100,
+      "condition_variants": 550,
+      "matched_control_trajectories": 600,
+      "naive_design_trajectories": 1800,
+      "per_condition": {
+        "clean": 100,
+        "contradictory_evidence": 75,
+        "missing_evidence": 100,
+        "stale_state": 100,
+        "superseded_appraisal": 75,
+        "unsupported_inference": 100
+      },
+      "per_condition_mode": {
+        "clean": {
+          "none": 100
+        },
+        "contradictory_evidence": {
+          "maintenance": 49,
+          "transition": 26
+        },
+        "missing_evidence": {
+          "blind_then_restated": 63,
+          "blind_throughout": 37
+        },
+        "stale_state": {
+          "topic_change": 100
+        },
+        "superseded_appraisal": {
+          "resolution_of_uncertainty": 49,
+          "retraction": 26
+        },
+        "unsupported_inference": {
+          "stance_only": 51,
+          "value_and_stance": 49
+        }
+      },
+      "primary_decision_points": 8250,
+      "split": "heldout"
+    }
+  },
+  "scenario_families": 12,
+  "split": "calibration",
+  "structural": {
+    "cross_family_reused_char_fraction": 0.5515,
+    "distinct_situations": 12,
+    "distinct_statement_ratio": 0.3224,
+    "distinct_statement_strings": 79,
+    "distinct_turn_field_frames": 8,
+    "family_authored_char_fraction": 0.3849,
+    "max_trajectories_sharing_one_situation": 2,
+    "most_common_turn_frame_share": 0.36,
+    "shared_template_char_fraction": 0.6151,
+    "total_statements": 245
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "release": "pilot20_final_analysis",
+  "date": "2026-09-22",
+  "scientific_status": "ANALYSIS_FROZEN",
+  "model_calls_during_freeze": 0,
+  "gpu_required": false,
+  "pilot": {
+    "selected_bases": 20,
+    "primary_variants": 106,
+    "primary_outcomes": 1590,
+    "control_outcomes": 600,
+    "total_outcomes": 2190
+  },
+  "human_audit": {
+    "planned": 324,
+    "completed": 324,
+    "pass": 322,
+    "fail": 1,
+    "ambiguous": 1,
+    "automated_semantic_labels": "UNAVAILABLE_324_OF_324",
+    "agreement_analysis": "UNAVAILABLE_NOT_TESTED",
+    "scope": "descriptive author-blinded non-clinical audit"
+  },
+  "hypothesis_status": {
+    "H1": "criterion_not_met",
+    "H2": "partial_evidence",
+    "H3": "criterion_not_met_opposite_conditional_direction",
+    "H4": "not_tested_automated_semantic_arm_unavailable"
+  },
+  "heldout_archive": {
+    "path": "/content/psyr-pilot20-heldout-complete-20260922.tar.gz",
+    "present": true,
+    "expected_sha256": "fb54337806ff43e4e9f03ba91370cc651473850f650cb6ef38aa6502fd939c7f",
+    "actual_sha256": "fb54337806ff43e4e9f03ba91370cc651473850f650cb6ef38aa6502fd939c7f",
+    "verified": true
+  },
+  "frozen_identifiers": {
+    "source_digest": "a985aa60ef4eedda3e7eb4d68b31437aba669c9dca15caa7328b79857cdf41dd",
+    "manual_config_sha256": "db83f43b1630356358abf54485f225d7d095b7b00675e78b29c151378f7a4545",
+    "weights_manifest_sha256": "6b9baefae3129a1a03ceecab6ff9639841c57573bf7358c11ffc1cb35a8b06e4",
+    "heldout_dataset_sha256": "e8d1da248ad4ba794360cf67796e2cd4214a404fc404e26a6f9ea5255a22a557"
+  },
+  "files": [
+    {
+      "path": "results/processed/pilot20_final/analysis_manifest.json",
+      "bytes": 823,
+      "sha256": "0da6751d2763fd58bb863b1ce8f11edc239f4a1a0425297ffedfee9e079df78a"
+    },
+    {
+      "path": "results/processed/pilot20_final/condition_architecture_metrics.csv",
+      "bytes": 1846,
+      "sha256": "efca69ee33d94c7fc6dbfb9d7f0cb12c5334af27281d4ce52234f8a79b9de186"
+    },
+    {
+      "path": "results/processed/pilot20_final/outcomes_merged.jsonl",
+      "bytes": 13536864,
+      "sha256": "3f2ca80cb663d70e0135ec9f2a53cce0f2cab68e65286042401ec5b2bb94e98c"
+    },
+    {
+      "path": "results/processed/pilot20_final/pilot20_analysis.json",
+      "bytes": 13178,
+      "sha256": "5f18ec2ba4bc673520e4db472bb6c5f981376a9465319cb81103642ad766a791"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/AUDIT_INSTRUCTIONS.md",
+      "bytes": 1936,
+      "sha256": "08719fd918f1b1e6668172c3f4105021920284afa31153c3b0213b9ccc17ea25"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/agreement.json",
+      "bytes": 1404,
+      "sha256": "7277dc9b62e8c8b233b242f9a0b9cf41aeb76bbdf68578cd8c0a9eb817a71d6b"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/auditor.json",
+      "bytes": 1146,
+      "sha256": "c8a747ee05f12309f77b0bd9c7183bf6f9233f7a10d997853169498eaec9b057"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/auditor.template.json",
+      "bytes": 237,
+      "sha256": "48fe40b90c3f7db26e3ee5da203111353c1195ab5b658ee756026513e734b48d"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/blinded_packet.jsonl",
+      "bytes": 496463,
+      "sha256": "2e611590cfee7d38d74136f22680549e747995a73a498d1e7617516c61068859"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/human_audit_descriptive.json",
+      "bytes": 3334,
+      "sha256": "0bef6b9a3f223412c93eb125aced67277d8b8deed97bf297d68edaefeaf43e9a"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/human_ratings.csv",
+      "bytes": 24390,
+      "sha256": "8b4901be598e75e74035e1f2d010e4180d354832d3c20430e6f5b25ea5962b97"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/private_key.jsonl",
+      "bytes": 56868,
+      "sha256": "b356bed1885d9c0398923f57f280d98b074d457ceffad7793a0d61c9df0f30f9"
+    },
+    {
+      "path": "results/processed/pilot20_manual_audit/sampling_manifest.json",
+      "bytes": 232,
+      "sha256": "3e244514082f8b41ab013d497c96608459bdb392d1de43a53981d7b39bc9144e"
+    },
+    {
+      "path": "results/provenance/application_preprint_pilot_amendment.json",
+      "bytes": 1746,
+      "sha256": "6f79908de18b9fc7c0e268c8195de997044c25136235eff90ef051f02d1ae2e7"
+    },
+    {
+      "path": "results/provenance/concurrency_execution_amendment.json",
+      "bytes": 1118,
+      "sha256": "e30e58b48c07ceafc8cf83501bd0a5e8bef84225372780577f589e42ccc10548"
+    }
+  ]
+}

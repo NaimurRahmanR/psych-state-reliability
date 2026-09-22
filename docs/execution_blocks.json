@@ -1,0 +1,47 @@
+[
+  {
+    "command": "python scripts/psyr.py dataset --split heldout",
+    "exit_code": 2,
+    "message": "{\"status\": \"BLOCKED\", \"reason\": \"Held-out access blocked: final model-calibrated experiment freeze is absent\"}"
+  },
+  {
+    "command": "python scripts/psyr.py run --split heldout --run-dir results/raw/heldout-v1",
+    "exit_code": 2,
+    "message": "{\"status\": \"BLOCKED\", \"reason\": \"Held-out access blocked: final model-calibrated experiment freeze is absent\"}"
+  },
+  {
+    "command": "python scripts/psyr.py run --split calibration --run-dir results/raw/calibration-v1",
+    "exit_code": 2,
+    "message": "{\"status\": \"BLOCKED\", \"reason\": \"Model identifier and pinned revision/snapshot must be configured\"}"
+  },
+  {
+    "command": "curl -sS https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json",
+    "exit_code": 0,
+    "message": "HTTP 403; x-deny-reason: host_not_allowed",
+    "date": "2026-09-20"
+  },
+  {
+    "command": "curl -sS https://hf-mirror.com/",
+    "exit_code": 0,
+    "message": "HTTP 403; x-deny-reason: host_not_allowed",
+    "date": "2026-09-20"
+  },
+  {
+    "command": "curl -sS https://cas-bridge.xethub.hf.co/",
+    "exit_code": 0,
+    "message": "HTTP 403; x-deny-reason: host_not_allowed",
+    "date": "2026-09-20"
+  },
+  {
+    "command": "curl -sS https://modelscope.cn/",
+    "exit_code": 0,
+    "message": "HTTP 403; x-deny-reason: host_not_allowed",
+    "date": "2026-09-20"
+  },
+  {
+    "command": "hardware check",
+    "exit_code": 0,
+    "message": "1 CPU, 3 GB RAM, no GPU (nvidia-smi absent), 9.4 GB free disk: insufficient for Qwen3-8B",
+    "date": "2026-09-20"
+  }
+]

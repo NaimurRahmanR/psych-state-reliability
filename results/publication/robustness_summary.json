@@ -1,0 +1,227 @@
+{
+  "H1_clean_state_precision_B_minus_A": {
+    "10k_ci": [
+      -0.07801019129066596,
+      0.06433904717026198
+    ],
+    "context_family_ci": [
+      -0.08674599298548989,
+      0.07987500244431671
+    ],
+    "context_family_effect": -0.0038971739309549003,
+    "frozen_ci": [
+      -0.07913451911413996,
+      0.06164311067140903
+    ],
+    "lobo_range": [
+      -0.02023094688221705,
+      0.010562154037904614
+    ],
+    "lobo_signs": {
+      "negative": 12,
+      "positive": 8,
+      "zero": 0
+    },
+    "point_effect": -0.0038971739309549003
+  },
+  "H1_clean_state_recall_B_minus_A": {
+    "10k_ci": [
+      -0.19000000000000006,
+      0.0033333333333334103
+    ],
+    "context_family_ci": [
+      -0.21500694444444446,
+      0.033333333333333326
+    ],
+    "context_family_effect": -0.08833333333333326,
+    "frozen_ci": [
+      -0.1983333333333333,
+      0.0050000000000000044
+    ],
+    "lobo_range": [
+      -0.10175438596491237,
+      -0.056140350877193046
+    ],
+    "lobo_signs": {
+      "negative": 20,
+      "positive": 0,
+      "zero": 0
+    },
+    "point_effect": -0.08833333333333326
+  },
+  "H2_stale_persistence_fault_minus_control": {
+    "10k_ci": [
+      0.0,
+      0.25
+    ],
+    "context_family_ci": [
+      0.0,
+      0.2857142857142857
+    ],
+    "context_family_effect": 0.09999999999999998,
+    "frozen_ci": [
+      0.0,
+      0.25
+    ],
+    "lobo_range": [
+      0.05263157894736836,
+      0.10526315789473684
+    ],
+    "lobo_signs": {
+      "negative": 0,
+      "positive": 20,
+      "zero": 0
+    },
+    "point_effect": 0.09999999999999998
+  },
+  "H2_unsupported_decision_error_fault_minus_control": {
+    "10k_ci": [
+      0.0,
+      0.06000000000000005
+    ],
+    "context_family_ci": [
+      0.0,
+      0.07499999999999996
+    ],
+    "context_family_effect": 0.020000000000000018,
+    "frozen_ci": [
+      0.0,
+      0.06000000000000005
+    ],
+    "lobo_range": [
+      0.0,
+      0.021052631578947434
+    ],
+    "lobo_signs": {
+      "negative": 0,
+      "positive": 19,
+      "zero": 1
+    },
+    "point_effect": 0.020000000000000018
+  },
+  "H2_unsupported_persistence_fault_minus_control": {
+    "10k_ci": [
+      0.16666666666666663,
+      0.4166666666666667
+    ],
+    "context_family_ci": [
+      0.15873015873015872,
+      0.45247493734335786
+    ],
+    "context_family_effect": 0.2833333333333334,
+    "frozen_ci": [
+      0.16666666666666663,
+      0.4166666666666667
+    ],
+    "lobo_range": [
+      0.24561403508771928,
+      0.29824561403508776
+    ],
+    "lobo_signs": {
+      "negative": 0,
+      "positive": 20,
+      "zero": 0
+    },
+    "point_effect": 0.2833333333333334
+  },
+  "H3_ALL_SEPR_C_minus_B": {
+    "10k_ci": [
+      0.053872427929446444,
+      0.15438852513422846
+    ],
+    "context_family_ci": [
+      0.042107462588948666,
+      0.1607996346750733
+    ],
+    "context_family_effect": 0.10176687957320807,
+    "frozen_ci": [
+      0.05272078988632686,
+      0.15407872369449155
+    ],
+    "lobo_range": [
+      0.08940972222222221,
+      0.11260733801717404
+    ],
+    "lobo_signs": {
+      "negative": 0,
+      "positive": 20,
+      "zero": 0
+    },
+    "point_effect": 0.10176687957320807
+  },
+  "H3_ALL_coverage_C_minus_B": {
+    "10k_ci": [
+      -0.8927272727272727,
+      -0.6370321637426901
+    ],
+    "context_family_ci": [
+      -0.912,
+      -0.6349740566037737
+    ],
+    "context_family_effect": -0.769811320754717,
+    "frozen_ci": [
+      -0.8920039215686275,
+      -0.6333333333333333
+    ],
+    "lobo_range": [
+      -0.804,
+      -0.756
+    ],
+    "lobo_signs": {
+      "negative": 20,
+      "positive": 0,
+      "zero": 0
+    },
+    "point_effect": -0.769811320754717
+  },
+  "H3_ALL_decision_reliable_coverage_C_minus_B": {
+    "10k_ci": [
+      -0.14705882352941177,
+      -0.05283018867924529
+    ],
+    "context_family_ci": [
+      -0.14616071428571428,
+      -0.053055448594532185
+    ],
+    "context_family_effect": -0.09811320754716982,
+    "frozen_ci": [
+      -0.14728882575757576,
+      -0.053684640522875915
+    ],
+    "lobo_range": [
+      -0.104,
+      -0.084
+    ],
+    "lobo_signs": {
+      "negative": 20,
+      "positive": 0,
+      "zero": 0
+    },
+    "point_effect": -0.09811320754716982
+  },
+  "H3_ALL_propagation_burden_C_minus_B": {
+    "10k_ci": [
+      -0.26851851851851855,
+      -0.10377358490566035
+    ],
+    "context_family_ci": [
+      -0.3,
+      -0.09666525423728815
+    ],
+    "context_family_effect": -0.18113207547169807,
+    "frozen_ci": [
+      -0.26482905982905985,
+      -0.10598888888888894
+    ],
+    "lobo_range": [
+      -0.19599999999999995,
+      -0.16000000000000003
+    ],
+    "lobo_signs": {
+      "negative": 20,
+      "positive": 0,
+      "zero": 0
+    },
+    "point_effect": -0.18113207547169807
+  }
+}

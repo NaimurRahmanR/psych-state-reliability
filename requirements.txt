@@ -1,0 +1,2 @@
+# The core pipeline and unittest suite require Python 3.12 only (standard library).
+# Exact authoring runtime: CPython 3.12.14. No model SDK is required.

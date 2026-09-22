@@ -1,0 +1,8 @@
+{
+  "tests_run": 149,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "scope": "software invariants and temporary canned fixtures; no research model inference"
+}

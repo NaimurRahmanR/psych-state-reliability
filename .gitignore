@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.env
+*.log
+results/recomputed/
+paper/*.aux
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.out
+paper/*.toc
+paper/*.blg
+paper/*.bbl
+!paper/main.bbl
+# Never commit model weights
+weights/
+*.safetensors

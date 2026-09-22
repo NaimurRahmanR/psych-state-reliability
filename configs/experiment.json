@@ -1,0 +1,75 @@
+{
+  "version": "design-v2.1",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "judge_model": null,
+  "judge_revision": null,
+  "endpoint_env": "PSYR_API_BASE",
+  "api_key_env": "PSYR_API_KEY",
+  "judge_endpoint_env": "PSYR_JUDGE_API_BASE",
+  "judge_api_key_env": "PSYR_JUDGE_API_KEY",
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_tokens": 1800,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "judge_generation": {
+    "temperature": 0.2,
+    "top_p": 1.0,
+    "max_tokens": 1200
+  },
+  "seed": 263901,
+  "judge_repeats": 3,
+  "bootstrap_seed": 77129,
+  "bootstrap_repetitions": 2000,
+  "audit_seed": 63713,
+  "audit_trajectories": 10,
+  "max_age_days": 14,
+  "sepr_minimum_effect": 0.05,
+  "coverage_tolerance": 0.1,
+  "calibration_parser_failure_limit": 0.05,
+  "request_timeout_seconds": 45,
+  "max_calls": 150000,
+  "planned_heldout_trajectories": 1650,
+  "planned_primary_turns": 8250,
+  "model_revision_status": "UNRESOLVED: resolve the exact Hugging Face commit SHA in the GPU environment and record it before calibration. No revision is asserted in this package.",
+  "generation_status": "CALIBRATION_STARTING_POINT_NOT_FROZEN: Qwen-recommended non-thinking sampling. May change before freeze only on calibration reliability grounds (schema adherence, parse stability, reproducibility), never on A/B/C performance. Identical for A, B and C.",
+  "thinking_mode": {
+    "required": "non-thinking",
+    "mechanism": "chat_template_kwargs.enable_thinking=false sent on every chat-completions request; additionally start the vLLM server with --default-chat-template-kwargs '{\"enable_thinking\": false}'",
+    "sources": [
+      "docs/evidence/qwen3_README.md (Qwen3 README: enable_thinking=False passed to apply_chat_template strictly prevents thinking content)",
+      "docs/evidence/vllm_reasoning_outputs.md (vLLM: Qwen3 reasoning is on by default; disable with enable_thinking=False in chat_template_kwargs)"
+    ],
+    "runtime_check": "every raw completion records think_block_detected; any occurrence is a protocol violation reported, never stripped"
+  },
+  "model_variant_prohibited": "Qwen/Qwen3-8B-Base",
+  "judge_status": "UNSELECTED; required only if evaluator_mode is validated_automated",
+  "planned_heldout_matched_control_trajectories": 600,
+  "freeze_status": "NOT_FROZEN",
+  "evaluator_mode": null,
+  "evaluator_mode_status": "UNDECIDED: must be set to 'validated_automated' or 'manual_audit_only' and recorded in the final freeze, before held-out materialisation. finalize refuses while unset.",
+  "evaluator_validation_gate": {
+    "trap_split": "calibration",
+    "trap_items_required": 56,
+    "min_detected_per_failure_kind": 7,
+    "min_correct_per_negative_control_kind": 7,
+    "max_trap_sample_disagreement_fraction": 0.2,
+    "max_trap_invalid_fraction": 0.05,
+    "min_calibration_responses_with_3_valid_samples": 0.95,
+    "invalid_items_count_as_errors": true,
+    "max_candidate_evaluators": 2,
+    "max_candidate_evaluators_enforcement": "procedural: every candidate's trap run is retained and listed in results/calibration/changes.md"
+  },
+  "judge_aggregation": {
+    "samples_per_item": 3,
+    "rule": "majority of three repeated samples from one evaluator model",
+    "invalid_policy": "if any sample is invalid or cites a span absent from the response, the item is fidelity-unknown; unknown is never a pass and stays in denominators",
+    "independence": "repeated correlated samples from one model, not independent raters"
+  }
+}

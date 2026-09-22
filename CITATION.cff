@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Psych-State Reliability"
+message: "If you use this software, benchmark, or frozen pilot results, please cite the accompanying preprint."
+type: software
+authors:
+  - family-names: Rahman
+    given-names: Naimur
+    orcid: "https://orcid.org/0009-0004-2794-077X"
+year: 2026
+license: MIT
+repository-code: "https://github.com/NaimurRahmanR/psych-state-reliability"
+preferred-citation:
+  type: article
+  title: "From Evidence to Intervention: State Error Propagation and Abstention in Longitudinal LLM-Mediated Psychological Support"
+  authors:
+    - family-names: Rahman
+      given-names: Naimur
+      orcid: "https://orcid.org/0009-0004-2794-077X"
+  year: 2026

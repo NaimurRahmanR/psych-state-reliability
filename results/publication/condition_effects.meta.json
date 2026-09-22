@@ -1,0 +1,7 @@
+{
+  "status": "POST_FREEZE_PUBLICATION_DERIVATION",
+  "source": "results/processed/pilot20_final/outcomes_merged.jsonl",
+  "bootstrap_repetitions": 2000,
+  "bootstrap_seed": 77129,
+  "note": "Secondary condition-level decomposition; no model calls and no protocol tuning."
+}
